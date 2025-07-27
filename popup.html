@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civitai Downloader</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            width: 250px;
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-800 text-white p-4">
+    <div class="flex flex-col items-center space-y-4">
+        <h1 class="text-lg font-bold text-center">Civitai Downloader</h1>
+        <p id="status" class="text-sm text-gray-400 text-center">Ready to download images from the current post.</p>
+        <button id="downloadBtn" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            Download All Images
+        </button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
